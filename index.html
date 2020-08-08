@@ -12,7 +12,7 @@
     
 <div class="start">
     
- <div class="container ">
+ <div class="container">
      <div class="row text-center ">
          <div class="col-xs-12 col-sm-6 col-md-8 ml-auto" id="stt">
              <h1 class="heads">Quiz App</h1>
@@ -27,17 +27,83 @@
 </div>
          </div>
      </div>
- </div>
-</div>
-<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 " >
+            <div id="newd">
+                <h5 class="pads">Question:1</h5>
+                <h6 class="pads">Who is the founder of GPT-3 ?</h6>
+                <input class="mar" type="radio" id="q1a" name="A" value="OpenAi">
+                <label for="q1a">Open AI</label>
+                <br>
+                <input class="mar" type="radio" id="q1b" name="A" value="Google">
+                <label for="q1b">Google</label>
+                <br>
+                <input class="mar" type="radio" id="q1c" name="A" value="Amazon">
+                <label for="q1c">Amazon Cloud Services</label>
+                <br>
+                <input class="mar" type="radio" id="q1d" name="A" value="Azure">
+                <label for="q1d">Microsoft Azure</label>
+                <br>
+                <br>
+                <button type="button" class="btn btn-primary btnsa" onclick="add()">Next</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 " >
+            <div id="newda">
+                <h5 class="pads">Question:2</h5>
+                <h6 class="pads">What deoes constructors do??</h6>
+                <input class="mar" type="radio" id="q2a" name="A" value="OpenAi">
+                <label for="q1a">Calls a method</label>
+                <br>
+                <input class="mar" type="radio" id="q2b" name="A" value="Google">
+                <label for="q1b">Creates a class</label>
+                <br>
+                <input class="mar" type="radio" id="q2c" name="A" value="Amazon">
+                <label for="q1c">Stroes values in its parameters</label>
+                <br>
+                <input class="mar" type="radio" id="q2d" name="A" value="Azure">
+                <label for="q1d">Calls a function</label>
+                <br>
+                <br>
+                <button type="button" class="btn btn-primary btnsa" onclick="adda()">Next</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 " >
+            <div id="newdb" >
+                <h5 class="pads">Question:3</h5>
+                <h6 class="pads">How we implement a interface in Java?</h6>
+                <input class="mar" type="radio" id="q3a" name="A" value="OpenAi">
+                <label for="q1a">By calling it inside a class</label>
+                <br>
+                <input class="mar" type="radio" id="q3b" name="A" value="Google">
+                <label for="q1b">by making class Abstract</label>
+                <br>
+                <input class="mar" type="radio" id="q3c" name="A" value="Amazon">
+                <label for="q1c">by using implement keyword before class name</label>
+                <br>
+                <input class="mar" type="radio" id="q3d" name="A" value="Azure">
+                <label for="q1d">None of these</label>
+                <br>
+                <br>
+                <button type="button" class="btn btn-primary btnsa" onclick="addb()">Next</button>
+            </div>
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="shadow-lg p-3 mb-5 bg-white rounded" id="newd">Larger shadow</div>
-
+<div class="result" id="res">
+    <img src="images/golden-trophies-500x500.jpg" class="imgone" alt="">
+</div>
         </div>
     </div>
 </div>
 
+</div>
     <script src="app.js"></script>
 </body>
 </html>

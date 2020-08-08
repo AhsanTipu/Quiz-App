@@ -3,9 +3,10 @@
     padding: 0px;
 }
 .start{
-    background-image: url("../images/—Pngtree—back\ to\ school\ day\ linear_1155212.png") ;
+   background-image: url("../images/—Pngtree—back\ to\ school\ day\ linear_1155212.png");
     /* opacity: 0.8;s */
     height: 100vh;
+
 }
 #name{
     width: 300px;
@@ -14,7 +15,7 @@
 #stt{
     margin-top: 250px;
     border: 2px solid white;
-    height: 290px;
+    height: 300px;
     box-shadow: 2px 3px black;
     
 
@@ -23,6 +24,75 @@
     border-bottom: 2px solid white;
     padding-bottom: 8px;
     width: 169px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
+#newd{
+    background-color: white;
+border-radius: 9px;
+height: 303px;
+
+}
+.hz{
+    margin-top: 267px;
+    
+}
+.btnsa{
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+.pads{
+    padding: 3px 12px
+}
+.mar{
+    margin: 13px
+}
+#newda{
+    background-color: white;
+    border-radius: 9px;
+    height: 303px;
+    
+}
+#newdb{
+    background-color: white;
+    border-radius: 9px;
+    height: 303px;
+    
+}
+.te{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#res{
+    background-color: white;
+    border-radius: 9px;
+    height: 303px;
+    display: block;
+    margin: auto;
+display: none;
+}
+.imgone{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+@media screen and (min-width: 480px) {
+#res {
+      width: 400px;
+      margin-top: 267px;
+    }
+  }
+
+  .fade-in{
+      animation: fadeIn 2s;
+      animation-timing-function: ease-in-out;
+    
+  }
+  @keyframes fadeIn{
+      from{
+          opacity: 0;
+      }
+      to{
+          opacity: 1;
+      }
+  }
